@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Esa Color Changer",
+    "version": "1.0.0",
+    "description": "ESAのタブのデフォルト色をピンク色に変更する",
+    "content_scripts": [
+      {
+        "matches": ["https://*.esa.io/*"],
+        "css": ["style.css"]
+      }
+    ]
+}
